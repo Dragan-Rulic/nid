@@ -1,0 +1,384 @@
+@import url('https://fonts.googleapis.com/css?family=Aclonica&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: #FBFAF8;
+    scroll-behavior: smooth;
+}
+img{
+    max-width: 100%;
+}
+h1,h2,p{
+    font-family: 'Aclonica', sans-serif;
+}
+ul{
+    list-style-type: none;
+    font-size: 17px;
+}
+a{
+    text-decoration: none;
+    color:#ffff;
+    font-family: 'Aclonica', sans-serif;
+}
+#naslovna ul li{
+
+    display: inline-block;
+    padding: 40px;
+}
+#naslovna ul li a:hover{
+    color: #ffcc00;
+}
+main{
+    background-image: url("../img/futer1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.nasmed{
+    color: #6F4D32;;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 60px;
+    font-size: 40px;
+
+}
+#naslovna{
+   width: 100%;
+   height: 70vh;
+   background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.5)),url("../img/pozadina.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+#nav{
+    
+    display: flex;
+    justify-content: space-between; 
+    text-align: center;
+    
+}
+.activ{
+    color: #ffcc00;
+}
+#logo img {
+    width:150px;
+    margin-top: 20px;
+    margin-left: 50px;
+    border-radius: 10px;
+}
+#korpablok{
+    width: 50px;
+    height: 50px;
+    margin-right: 130px;
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+    font-size: 20px;
+}
+#korpablok a:hover{
+    
+    cursor: pointer;
+    color: rgba(181,152,2,0.7);
+} 
+ 
+#quote h1{
+    text-align: center;
+    margin-top: 5vh;
+    font-size: 30px;
+    color: #ffff;
+}
+#quote h2{
+    text-align: center;
+    margin-top: 4vh;
+    font-size: 40px;
+    color: #ffff;
+}
+#blok2{
+    height: 100vh;
+}
+ .nasmed::after{
+    content: "";
+    width:120px;
+    height: 5px;
+    display: block;
+    margin: 20px auto;
+    background-color: #6F4D32;
+}
+#artikal1{
+    display: flex;
+    justify-content: space-around;
+}
+.opisbox1{
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    padding-top: 50px;
+
+    
+}
+
+.opisbox1 p{
+    color:#6F4D32;
+    font-size: 16px;
+    text-align: justify;
+    font-family: 'Aclonica', sans-serif;
+    padding: 5px;
+}
+.opisbox2{
+    margin: 20px;
+    width: 500px;
+    
+}
+.opisbox2 img{
+    display: flex;
+    justify-content: center;
+}
+.opisbox3{
+   width: 500px;
+   margin: 20px;
+
+}
+
+#lista{
+    display: flex;
+    justify-content: center;
+   
+    
+}
+#lista p i{
+    padding: 10px;
+    font-size: 20px;
+    margin-top: 10px;
+}
+#lista p{
+    color: #6F4D32;
+}
+#lista i{
+    color: #ffcc00;
+}
+.opisbox3 h2{
+    text-align: center;
+    color: #6F4D32;
+}
+
+
+  
+
+footer{
+   
+    /* background-image: url("../img/futer1.png");
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: 100% auto;*/
+    width: 100%;
+    height: 70px;
+    padding-top: 10px;
+    background-color:#504B4A;
+}
+#futer{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+   
+}
+#socialfuter ul li {
+   display: inline;
+   padding: 10px;
+   font-size: 25px;
+   color:#ffcc00; 
+   
+}
+#socialfuter ul li a{
+color: #ffcc00;
+margin-top: 20px;
+}
+#socialfuter  a:hover{
+    color:#ffff;
+}
+#address {
+    color: #ffff;
+    font-size: 13px;
+    font-family: 'Aclonica', sans-serif;
+    display: flex;
+    align-items: center;
+}
+#Oautor{
+    text-align: center;
+    font-size: 20px;
+    color: #9F9D9B;
+    padding-top: 8px;
+    border-top: 0.5px dotted #D5D2CB ;
+}
+
+#mapa{
+  margin-top: 5px;
+}
+ /*kontakt.html css*/
+
+                                                                /*index.html*/ 
+#Oproizvodima{
+    display: flex;
+    justify-content: space-around;
+}
+.proizvoid{
+    width: 300px;
+    margin: 20px;
+    border-radius: 10px;
+    background-color: #994d00;
+   
+}
+.prSlika1{
+    height: 300px;
+    width: 300px;
+    border-radius: 10px 10px 0px 0px;
+     background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #9F9D9B;
+}
+#slika1{
+    background-image: url("../img/livadski.jpg");
+}
+#slika2{
+    background-image: url("../img/bagremov.jpg");
+}
+
+#slika3{
+    background-image: url("../img/sumski.jpg");
+}
+.prOpis{
+    width: 300px;
+    height: 50px;
+    font-family:'Aclonica', sans-serif;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    color: #ffff;
+}
+.prTekst{
+    width: 100%;
+    text-align: center;
+}
+.prDugme{
+    
+    display: flex;
+    justify-content: center;
+   
+}
+.dugme{
+    padding: 10px;
+    border: #ffcc00 1px solid;
+    border-radius: 2px;
+    background-color:#ffcc00;
+    color: #ffff;
+    font-family: 'Aclonica', sans-serif;
+    margin-bottom:5px;
+    cursor: pointer;
+   
+}
+.Dhover :hover{
+    opacity: 1;
+    box-shadow: 0px 4px 22px rgba(0, 0, 0, 0.6);
+    transition: 0.3s;
+}
+.prSlika1 :hover{
+    opacity: 1;
+}
+.prSlika2 :hover{
+    opacity: 1;
+}
+.prSlika3 :hover{
+    opacity: 1;
+}
+.folija{
+    transition: 0.5s;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(244,247,246,0.8);
+}
+.Galerija-slika{
+    display: flex;
+    justify-content: space-around;
+}
+.Gslike{
+    width: 90%;
+    margin: 20px;
+    border-radius: 10px;
+    background-color: #994d00;
+}
+.gSlika{
+    display: flex;
+    justify-content: center;
+}
+.gSlika img{
+    border-radius: 10px 10px 0px 0px;
+}
+.gTekst{
+    height: 30px;
+    margin-top: 15px;
+}
+.gTekst p{
+  text-align: center;
+  font-size: 16px;
+  color: #fff;
+}
+#forma{
+    display: flex;
+    justify-content: space-around;
+}
+#kontankt{
+    padding-bottom: 20px;
+}
+#kontanktForma{
+    width: 35%;
+}
+input,textarea{
+    width:100%;
+    padding:15px;
+    background-color: #ffcc00;
+    border: 3px solid transparent;
+    margin:10px 0px;
+    resize: none;
+    border-radius: 5px;
+    color: #ffff;
+  
+}
+.dugme-kontakt{
+    border: 2px solid transparent;
+    background-color:#ffcc00;
+    border-radius: 5px;
+    padding:10px;
+    font-size:35px;
+    color:#ffff;
+    width:30%;
+    margin:10px auto;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+.dugme-kontakt :hover{
+    background-color: #504B4A;
+}
+
+#autor-slika{
+    width: 45%;
+    display: flex;
+    align-items: center;
+}
+#autor-slika img{
+    margin-bottom: 100px;
+    width: 43%;
+    border-radius: 10px;
+}
+#autor-opis{
+    margin-left: 30px;
+    margin-bottom: 100px;
+    font-size: 15px;
+    text-align: left;
+}
